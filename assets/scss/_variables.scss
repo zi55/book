@@ -1,0 +1,44 @@
+$main-ff:'Roboto', sans-serif;
+$main-fw: 400;
+$main-fz:27px;
+$bgc-color:rgba(18, 17, 24, 1);
+$text-color: white;
+$info-text-oppacity: 70%;
+$section-title-size: 60px;
+
+
+$tablet: 576px;
+$laptop: 768px;
+$s-desktop: 992px;
+$desktop: 1200px;
+$large-desktop: 1400px;
+
+
+.nav_container{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.section_container{
+    max-width: 956px;
+    margin: 0 auto;
+}
+.img_section_container{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.text_container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.ds-flex{
+    display: flex;
+}
+.ds-grid{
+    display: grid;
+}
+.text-center{
+    text-align: center;
+}
+.low_opacity{
+    opacity: (0.6);
+}
